@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        //python config
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Star Grid",
+            "program": "${workspaceFolder}/star_grid/star_grid.py",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+
+    ],
+    "compounds": []
+ }
