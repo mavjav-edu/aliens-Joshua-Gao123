@@ -8,8 +8,11 @@
             "name": "Star Grid",
             "program": "${workspaceFolder}/star_grid/star_grid.py",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/star_grid",
             "console": "integratedTerminal",
+            "purpose": [
+                "debug-test"
+            ],
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"
             }
