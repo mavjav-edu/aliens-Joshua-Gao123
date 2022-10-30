@@ -3,13 +3,12 @@ from pygame.sprite import Sprite
 
 
 class Star(Sprite):
-    SCALE_FACTOR = 0.15
+    SCALE_FACTOR = 0.025
 
     def __init__(self, ai_game):
         super().__init__()
         self.screen = ai_game.screen
         self.image = pygame.image.load("star.png")
-
         # check if the image was loaded properly
         if self.image is None:
             print("Error loading image")

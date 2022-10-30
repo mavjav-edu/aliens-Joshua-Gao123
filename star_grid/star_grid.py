@@ -45,3 +45,5 @@ class StarGrid:
 if __name__ == '__main__':
     ai = StarGrid()
     ai.run_game()
+
+#resize star 
